@@ -5,15 +5,12 @@
 #### By _**Azamat Bekmuratov**_
 
 ## Description
-This web application is built with C# Asp Net Core MVC framework. The application where a user enters a string, chooses a word in that string and provides a replacement for that word
+This web application is built with C# Asp Net Core MVC framework. The application where a user enters a text, enters a word from that text that he wants to change and enters a replacement for that word.
 
 ## Specifications
 | Input | Output |
 | :------------- | :------------- |
-| Rock v. Scissors  | Rock wins |
-| Rock v. Paper | Paper wins |
-| Paper v. Scissors | Scissors wins |
-| **If both people choose the same thing** | Nobody wins |
+| Text: "Hello world", word to be changed: "world", new word: "universe"  | New text will be:  "Hello universe"|
 
 ## Setup/Installation Requirements
 
@@ -37,6 +34,7 @@ Please feel free to contact at azaege@gmail.com with any suggestions or feedback
 * C# .Net Core MVC
 * Razor
 * HTML
+* CSS
 
 ### License
 

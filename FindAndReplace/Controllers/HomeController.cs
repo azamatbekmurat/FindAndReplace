@@ -20,7 +20,6 @@ namespace Replacement.Controllers
       string newSentece = inputValues.ToReplace();
       Console.WriteLine(newSentece);
       return View("Result", newSentece);
-
     }
 
   }
