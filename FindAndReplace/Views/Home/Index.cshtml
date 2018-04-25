@@ -1,0 +1,21 @@
+@{
+  Layout = "_Layout";
+}
+
+<div class="container">
+  <h4>Enter a sentence, word you want to change and replacement word. App will allow you to change word from sentence to another</h4>
+  <form action="/replacement" method="post">
+
+      <label for="inputSentence">Sentence:</label>
+      <input id="inputSentence" name="inputSentence" type="text">
+      <br>
+      <label for="wordToFind">Word you want to replace:</label>
+      <input id="wordToFind" name="wordToFind" type="text">
+      <br>
+      <label for="replaceWord">Replacement word:</label>
+      <input id="replaceWord" name="replaceWord" type="text">
+      <br>
+    <button id="submit" class="btn btn-primary btn-lg" type="submit">Find and Replace!!!</button>
+  </form>
+
+</div>
