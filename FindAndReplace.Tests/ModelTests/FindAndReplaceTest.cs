@@ -6,13 +6,17 @@ using System;
 namespace Replacement.Tests
 {
   [TestClass]
-  public class RPScissorsGameTest
+  public class FindNReplaceTest
   {
     [TestMethod]
-    public void lkjlkjlkjklj()
+    public void Is_Value_Found_and_Replaced()
     {
-    }
+      FindNReplace inputValues = new FindNReplace("Hello world", "world", "universe");
+      string newSentece = inputValues.ToReplace();
+      Console.WriteLine(newSentece);
 
+      Assert.AreEqual("Hello universe.", newSentece);
+    }
 
   }
 }
